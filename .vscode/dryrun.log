@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/kalleby.ramos/Nested Loop - Openmp'
+g++ -Wall -Wextra -std=c++17 -ggdb -fopenmp -Iinclude -Llib src/main.cpp -o bin/main 
+make: Leaving directory '/home/kalleby.ramos/Nested Loop - Openmp'
+ 

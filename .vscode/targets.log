@@ -1,0 +1,341 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue May 10 19:25:37 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from 'Makefile', line 5)
+SRC := src
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1002/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/kalleby.ramos/Nested Loop - Openmp
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 4)
+BIN := bin
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:49005
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = kalleby.ramos
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1002/bus,guid=434c7945d502cee2634fd746627ae1f9
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+_ = /usr/share/code/code
+# environment
+MANAGERPID = 2025
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/kalleby.ramos
+# default
+ 
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/kalleby.ramos/.poetry/bin:/home/kalleby.ramos/.pyenv/shims:/home/kalleby.ramos/.pyenv/bin:/home/kalleby.ramos/.poetry/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1002/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/BR-OLT-NB2381:@/tmp/.ICE-unix/2275,unix/BR-OLT-NB2381:/tmp/.ICE-unix/2275
+# environment
+XDG_RUNTIME_DIR = /run/user/1002
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+PYENV_ROOT = /home/kalleby.ramos/.pyenv
+# environment
+INVOCATION_ID = 0310666bd5eb42779663636aad61595a
+# makefile (from 'Makefile', line 7)
+LIB := lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1002/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5191
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/kalleby.ramos/Nested Loop - Openmp
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2234
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/kalleby.ramos
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/kalleby.ramos/.config/Code/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+# environment
+LOGNAME = kalleby.ramos
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 2)
+CXX_FLAGS := -Wall -Wextra -std=c++17 -ggdb -fopenmp
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1002/vscode-ipc-3c07ffdf-5f1b-49a2-a32f-f8aa79b56d56.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = kalleby.ramos
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 6)
+INCLUDE := include
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = pt_BR:pt:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1002/vscode-a4176bab-1.67.0-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 10)
+EXECUTABLE := main
+# makefile (from 'Makefile', line 1)
+CXX := g++
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 9)
+LIBRARIES := 
+# environment
+DBUS_STARTER_BUS_TYPE = session
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+VSCODE_PID = 5191
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1002/bus,guid=434c7945d502cee2634fd746627ae1f9
+# variable set hash-table stats:
+# Load=107/1024=10%, Rehash=0, Collisions=15/145=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66307, inode 1573475): 9 files, no impossibilities.
+# src (device 66307, inode 2753387): 3 files, no impossibilities.
+
+# 12 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: bin/main
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-05 13:57:08.732035104
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: clean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+	clear
+	./$(BIN)/$(EXECUTABLE)
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 23):
+	-rm $(BIN)/*
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-10 19:25:16.152374181
+#  File has been updated.
+#  Successfully updated.
+
+bin/main: src/main.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified 2022-05-05 15:14:25.350389111
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := bin/main
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := src/main.cpp
+# automatic
+# | := 
+# automatic
+# < := src/main.cpp
+# automatic
+# ^ := src/main.cpp
+# automatic
+# ? := src/main.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/18=11%
+#  recipe to execute (from 'Makefile', line 20):
+	$(CXX) $(CXX_FLAGS) -I$(INCLUDE) -L$(LIB) $^ -o $@ $(LIBRARIES)
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/26=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 19 / storage = 143 B / avg = 7 B
+# current buf: size = 8162 B / used = 143 B / count = 19 / avg = 7 B
+
+# strcache performance: lookups = 35 / hit rate = 45%
+# hash-table stats:
+# Load=19/8192=0%, Rehash=0, Collisions=2/35=6%
+# Finished Make data base on Tue May 10 19:25:37 2022
+
+ 
